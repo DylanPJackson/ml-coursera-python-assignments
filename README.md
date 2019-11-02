@@ -22,4 +22,4 @@ as to what its label should be.
 can accuratlely identify labels given a sample input of features
 
 ## Exercise 1 : Linear Regression
-Linear Regression is most commonly applied \\ Sigma\ 
+Linear Regression is most commonly applied \Sigma 
