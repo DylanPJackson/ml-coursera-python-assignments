@@ -22,4 +22,9 @@ as to what its label should be.
 can accuratlely identify labels given a sample input of features
 
 ## Exercise 1 : Linear Regression
-Linear Regression is most commonly applied Σ 
+Linear Regression is most commonly applied to solve the problem of: I have some
+set of data, and I want to see how that data affects some other data point. In
+this manner, you can predict behavior based off of predefined behavior. For
+example, if I have a set of data on houses with the square footage and pricing
+of each house, one could apply linear regression to predict the price of a house
+given its square footage.  
