@@ -27,4 +27,9 @@ set of data, and I want to see how that data affects some other data point. In
 this manner, you can predict behavior based off of predefined behavior. For
 example, if I have a set of data on houses with the square footage and pricing
 of each house, one could apply linear regression to predict the price of a house
-given its square footage.  
+given its square footage.
+
+Following the model of supervised learning, you then establish a hypothesis 
+function based off of the data. The hypothesis function is based off of a 
+combination of the **features**, or **X**, and the **weights**, or **theta, Θ.**
+
