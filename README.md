@@ -47,6 +47,13 @@ the iterative improvement process.
 
 Thus far, we have established a hypothesis function **h**, with parameters **Θ** 
 and features **X**. The parameters influence the shape of h, thus we want to 
-generate parameters that accurately predict output. To do this, we use the
-following minimazation function  
-![Image](./linear_cost.png "icon")
+generate parameters that accurately predict output. To do this, we observe the
+following cost function
+![Image](./linear_cost.png "icon") 
+In this context, this function tells us, given our current Θ, how incorrect
+our guesses are for the price of a house, compared to the actual prices. The 
+goal then, is to minimize this cost function. In other words, make our Θ as 
+accurate as possible, and thus our line of best fit as appropriate as possible.
+
+The minimization is done by the following  
+![Image](./linear_gradient_descent.png "icon")
