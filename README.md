@@ -56,4 +56,13 @@ goal then, is to minimize this cost function. In other words, make our Θ as
 accurate as possible, and thus our line of best fit as appropriate as possible.
 
 The minimization is done by the following  
-![Image](./linear_gradient_descent.png "icon")
+![Image](./linear_gradient_descent.png "icon")  
+What this translates to is a process that simultaneously updates all elements
+in Θ. The update to each element in theta basically pushes it towards a value
+that produces less error in the cost function detailed above. This process is 
+referred to as **gradient descent**. Essentially, theta is continuously updated
+until it eventually converges on some minimum cost.
+
+Thus, linear regression is complete. A hypothesis function is established, a
+cost function is defined to determine the hypothesis' performance, and gradient
+descent is used to eventually minimize the cost of that hypothesis function.  
