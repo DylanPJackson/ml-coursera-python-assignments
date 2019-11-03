@@ -45,4 +45,8 @@ the line of best fit, and thereby accurately predict the price of a house given
 its square footage? That is the third part of any linear regression implementation,
 the iterative improvement process.
 
-
+Thus far, we have established a hypothesis function **h**, with parameters **Θ** 
+and features **X**. The parameters influence the shape of h, thus we want to 
+generate parameters that accurately predict output. To do this, we use the
+following minimazation function  
+![Image](./linear_cost.png "icon")
