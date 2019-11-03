@@ -48,8 +48,8 @@ the iterative improvement process.
 Thus far, we have established a hypothesis function **h**, with parameters **Θ** 
 and features **X**. The parameters influence the shape of h, thus we want to 
 generate parameters that accurately predict output. To do this, we observe the
-following cost function
-![Image](./linear_cost.png "icon") 
+following cost function  
+![Image](./linear_cost.png "icon")   
 In this context, this function tells us, given our current Θ, how incorrect
 our guesses are for the price of a house, compared to the actual prices. The 
 goal then, is to minimize this cost function. In other words, make our Θ as 
