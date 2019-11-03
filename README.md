@@ -23,13 +23,16 @@ can accuratlely identify labels given a sample input of features
 
 ## Exercise 1 : Linear Regression
 Linear Regression is most commonly applied to solve the problem of: I have some
-set of data, and I want to see how that data affects some other data point. In
-this manner, you can predict behavior based off of predefined behavior. For
+set of data, and I want to see how I can predict future data. In
+this manner, you can predict behavior based off of pre-observed behavior. For
 example, if I have a set of data on houses with the square footage and pricing
 of each house, one could apply linear regression to predict the price of a house
 given its square footage.
 
 Following the model of supervised learning, you then establish a hypothesis 
 function based off of the data. The hypothesis function is based off of a 
-combination of the **features**, or **X**, and the **weights**, or **theta, Θ.**
+combination of the **features**, or **X**, and the **weights**, also known as
+**parameters**, commonly referred to as **theta, Θ.**
 
+An example hypothesis function with one variable may look like this:  
+![Image](linear_hypothesis.png "Icon")
