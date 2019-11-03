@@ -35,4 +35,4 @@ combination of the **features**, or **X**, and the **weights**, also known as
 **parameters**, commonly referred to as **theta, Θ.**
 
 An example hypothesis function with one variable may look like this:  
-![Image](linear_hypothesis.png "icon")
+![Image](./linear_hypothesis.png "icon")
