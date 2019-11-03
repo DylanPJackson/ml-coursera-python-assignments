@@ -35,4 +35,14 @@ combination of the **features**, or **X**, and the **weights**, also known as
 **parameters**, commonly referred to as **theta, Θ.**
 
 An example hypothesis function with one variable may look like this:  
-![Image](./linear_hypothesis.png "icon")
+![Image](./linear_hypothesis.png "icon")  
+and in fact, this is the function that we use in this exercise. The first term
+is theta-0 and the first part of the second term is theta-1. The small x may
+represent the square footage of one house. Thus, this function attempts to 
+determine the price of that house, based off of x and Θ. The question then is
+how is that done? How does this function come up with the Θ required to find
+the line of best fit, and thereby accurately predict the price of a house given
+its square footage? That is the third part of any linear regression implementation,
+the iterative improvement process.
+
+
