@@ -117,4 +117,9 @@ The explanation for this is basically the same as above, but reversed.
 
 What is interesting in the function as it is fully written out above, is that
 whenever y = 0, the first term is nullified, and when y = 1, the second term is
-nullified. Thus it has the exact behavior as defined directly above.   
+nullified. Thus it has the exact behavior as defined directly above.  
+
+The last part of logistic regression is the gradient descent algorithm.
+Generally, it follows the same idea as gradient descent for linear regression.
+The equation below demonstrates that each theta is updated simultaneously, and
+as such the parameters are altered such that the cost function is minimized. 
