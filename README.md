@@ -83,4 +83,4 @@ Whereas the hypothesis function for linear regression is the dot product of
 theta transpose and X,  
 ![Image](./linear_hypothesis.png "icon")  
 the hypothesis function for logistic regression is actually a function of that   
-![Image](./logistic_hypothehsis.png "icon")
+![Image](./logistic_hypothesis.png "icon")
