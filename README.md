@@ -66,3 +66,21 @@ until it eventually converges on some minimum cost.
 Thus, linear regression is complete. A hypothesis function is established, a
 cost function is defined to determine the hypothesis' performance, and gradient
 descent is used to eventually minimize the cost of that hypothesis function.  
+
+## Exercise 2 : Logistic Regression
+Logistic Regression as a standalone application is typically applied to
+**classification** problems. Classification problems being those where the y value 
+is discrete. There are binary classification problems where y is the set of {0,1},
+and multiclass classification problems where y is the set of {0,1,2,3,...}. 
+
+The reason logistic regression instead of linear regression is applied to 
+classification problems is because the hypothesis function for linear regression
+can produce output outside of the bonds of the classification values. Logistic
+regression aims to produce output always within classification bounds. This 
+behavior is inherent in the construction of the hypothesis function.
+
+Whereas the hypothesis function for linear regression is the dot product of 
+theta transpose and X,  
+![Image](./linear_hypothesis.png "icon")  
+the hypothesis function for logistic regression is actually a function of that   
+![Image](./logistic_hypotehsis.png "icon")
