@@ -83,4 +83,20 @@ Whereas the hypothesis function for linear regression is the dot product of
 theta transpose and X,  
 ![Image](./linear_hypothesis.png "icon")  
 the hypothesis function for logistic regression is actually a function of that   
-![Image](./logistic_hypothesis.png "icon")
+![Image](./logistic_hypothesis.png "icon")  
+This function is actually the sigmoid function, otherwise known as the logistic
+function. This function takes the original hypothesis function, and squishes the
+output to be in the range of 0 to 1. This output is then treated as the probability 
+that y = 1 on input X. For example, if the output is .7, the probability that
+y = 1 is 70%. 
+
+There is also the concept of a **decision boundary**. In the context of binary
+classification, the decision boundary is some line such that, if the output is
+plotted above it, the output is classified as 1. If below, it is classified as 0.
+
+This brings us to the cost function. As with linear regression, there must be
+some way to evaluate the performance of hypothesis function. The cost function
+for logistic regression is a bit different than that of linear regression, but
+there is some interesting intuition with this one.  
+![Image](./logistic_cost1.png "icon")  
+![Image](./logistic_cost2.png "icon")  
