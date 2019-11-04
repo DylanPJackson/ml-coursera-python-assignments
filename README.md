@@ -100,8 +100,21 @@ for logistic regression is a bit different than that of linear regression, but
 there is some interesting intuition with this one.  
 ![Image](./images/logistic_cost1.png "icon")  
 ![Image](./images/logistic_cost2.png "icon")  
-the best way to understand this function is to visualize it. In the case of
-where y = 1, or where correct label is of class 1, then the cost function
+The best way to understand this function is to visualize it. In the case of
+where y = 1, or where the correct label is of class 1, then the cost function
 would look like this.  
 ![Image](./images/logistic_cost_intuition1.png "icon")  
+Thus, as the decision from the hypothesis function approaches 1, the cost
+approaches 0. Conversely, as the decision from the hypothesis function
+approaches 0, the cost approaches infinity. This is exactly the sort of 
+behavior we would want when the correct class is 1. A minimal cost the closer
+it is to 1, and an ever increasing cost as it deviates from that.
 
+Similarly, in the case of where y = 0, or where the correct label is of class
+0, then the cost function would look like this.
+![Image](./images/logistic_cost_intuition2.png "icon")  
+The explanation for this is basically the same as above, but reversed.
+
+What is interesting in the function as it is fully written out above, is that
+whenever y = 0, the first term is nullified, and when y = 1, the second term is
+nullified. Thus it has the exact behavior as defined directly above.   
