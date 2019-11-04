@@ -35,7 +35,7 @@ combination of the **features**, or **X**, and the **weights**, also known as
 **parameters**, commonly referred to as **theta, Θ.**
 
 An example hypothesis function with one variable may look like this:  
-![Image](./linear_hypothesis.png "icon")  
+![Image](./images/linear_hypothesis.png "icon")  
 and in fact, this is the function that we use in this exercise. The first term
 is theta-0 and the first part of the second term is theta-1. The small x may
 represent the square footage of one house. Thus, this function attempts to 
@@ -49,14 +49,14 @@ Thus far, we have established a hypothesis function **h**, with parameters **Θ*
 and features **X**. The parameters influence the shape of h, thus we want to 
 generate parameters that accurately predict output. To do this, we observe the
 following cost function  
-![Image](./linear_cost.png "icon")   
+![Image](./images/linear_cost.png "icon")   
 In this context, this function tells us, given our current Θ, how incorrect
 our guesses are for the price of a house, compared to the actual prices. The 
 goal then, is to minimize this cost function. In other words, make our Θ as 
 accurate as possible, and thus our line of best fit as appropriate as possible.
 
 The minimization is done by the following  
-![Image](./linear_gradient_descent.png "icon")  
+![Image](./images/linear_gradient_descent.png "icon")  
 What this translates to is a process that simultaneously updates all elements
 in Θ. The update to each element in theta basically pushes it towards a value
 that produces less error in the cost function detailed above. This process is 
@@ -81,9 +81,9 @@ behavior is inherent in the construction of the hypothesis function.
 
 Whereas the hypothesis function for linear regression is the dot product of 
 theta transpose and X,  
-![Image](./linear_hypothesis.png "icon")  
+![Image](./images/linear_hypothesis.png "icon")  
 the hypothesis function for logistic regression is actually a function of that   
-![Image](./logistic_hypothesis.png "icon")  
+![Image](./images/logistic_hypothesis.png "icon")  
 This function is actually the sigmoid function, otherwise known as the logistic
 function. This function takes the original hypothesis function, and squishes the
 output to be in the range of 0 to 1. This output is then treated as the probability 
@@ -98,5 +98,10 @@ This brings us to the cost function. As with linear regression, there must be
 some way to evaluate the performance of hypothesis function. The cost function
 for logistic regression is a bit different than that of linear regression, but
 there is some interesting intuition with this one.  
-![Image](./logistic_cost1.png "icon")  
-![Image](./logistic_cost2.png "icon")  
+![Image](./images/logistic_cost1.png "icon")  
+![Image](./images/logistic_cost2.png "icon")  
+the best way to understand this function is to visualize it. In the case of
+where y = 1, or where correct label is of class 1, then the cost function
+would look like this.  
+![Image](./images/logistic_cost_intuition1.png "icon")  
+
