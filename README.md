@@ -123,3 +123,7 @@ The last part of logistic regression is the gradient descent algorithm.
 Generally, it follows the same idea as gradient descent for linear regression.
 The equation below demonstrates that each theta is updated simultaneously, and
 as such the parameters are altered such that the cost function is minimized. 
+![Image](./images/logistic_gradient_descent.png "icon")  
+And with that, logistic regression is complete. It follows the same sort of
+thought process as linear regression, just that the hypothesis function uses
+the sigmoid/logistic function.  
